@@ -12,6 +12,9 @@ header{
 .image-4{
     display: none;
 }
+.image-6{
+    display: none;
+}
 nav ul{
     display: flex;
     gap: 30px;
@@ -122,7 +125,33 @@ nav a{
         width: 60%;
     }
     nav{
-        display: none;
+        background-color: rgb(248, 247, 247);
+        display: flex;
+        color: black;
+        position: fixed;
+        top: 0;
+        right: 0;
+       z-index: 1000;
+       padding: 20px;
+       display: none;
+
+
+        
+    }
+    .image-6{
+        display: block;
+    }
+    .image-6 img{
+        position: absolute;
+        right: 5PX;
+    }
+    nav ul{
+        display: flex;
+        flex-direction: column;
+        float: left;
+        text-align: start;
+        padding: 40px;
+
     }
     .second-component{
         display: flex;
